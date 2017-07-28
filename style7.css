@@ -1,0 +1,46 @@
+body
+{
+  background-color: #f1c40f
+}
+.Title
+{
+  text-align: center;
+  color: #16a085;
+}
+#Fampici
+{
+  padding-left: 500px;
+  width: 35%;
+  height: 38%;
+}
+#Parenpic
+{
+  float: right;
+  display: inline-block;
+  width: 40%;
+  height: 40%;
+}
+.Parents
+{
+  padding-right: 300px;
+  font-family: "Cherry Cream Soda";
+  font-size: 14;
+}
+#TIMY
+{
+  text-align: center;
+}
+#Bropic
+{
+  float: left;
+  display: inline-block;
+  width: 30%;
+  height: 45%;
+}
+.Brother
+{
+  text-align: right;
+  padding-left: 300px;
+  font-family: "Cherry Cream Soda";
+  font-size: 14;
+}

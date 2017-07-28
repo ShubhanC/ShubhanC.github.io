@@ -1,0 +1,55 @@
+body
+{
+  background-color: #e74c3c;
+}
+.title
+{
+  text-align: center;
+  font-family: 'Ubuntu';
+}
+.MEl
+{
+  text-align: left;
+  font-family: 'Cherry Cream Soda';
+}
+#littlepic
+{
+  float: right;
+  padding-left: 75px;
+  display: inline-block;
+  width: 45%;
+  height: 45%;
+}
+#babysound
+{
+  text-align: right;
+}
+#title
+{
+  text-align: center;
+  font-family: 'Ubuntu';
+  marquee-direction: 3;
+}
+#biography
+{
+  text-align: center;
+  font-family: 'Ubuntu'
+}
+#bigpic
+{
+  float: left;
+  display: inline-block;
+  width: 40%;
+  height: 45%;
+  transform: rotate(-90deg);
+}
+.ME2
+{
+  text-align: right;
+  font-family: 'Cherry Cream Soda';
+}
+#top
+{
+  text-align: center;
+  font-family: 'Cherry Cream Soda';
+}

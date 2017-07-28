@@ -1,0 +1,15 @@
+body
+{
+  background-color: #2980b9;
+}
+#pa
+{
+  text-align: center;
+}
+.photo
+{
+  display: inline-block;
+  width: 65%;
+  height: 75%;
+  padding-left: 210px;
+}

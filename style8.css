@@ -1,0 +1,18 @@
+body
+{
+  background-color: #2ecc71;
+}
+.Contact
+{
+  text-align: center;
+  color: #2c3e50;
+}
+#logo
+{
+  padding-left: 500px;
+  padding-right: 500px;
+}
+#buttontogmail
+{
+  float: right;
+}

@@ -1,0 +1,28 @@
+.eleven-years
+{
+  text-align: center;
+  font-size: 140%;
+}
+body
+{
+  background:
+}
+.statemant
+{
+  font: sans-serif;
+  text-align: center;
+}
+#logo
+{
+  display: inline-block;
+  width: 25%;
+  height: 30%;
+  transform: rotate(-90deg);
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+}
+#loga
+{
+  font-size: 90%
+}

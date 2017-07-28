@@ -1,0 +1,25 @@
+.menu
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c0392b
+}
+.nav-item
+{
+  float: left;
+  text-shadow: 2px 2px #ff0000;
+}
+.nav-item a
+{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: white;
+  text-decoration: none;
+}
+.nav-item a:hover
+{
+  background-color: #432
+}
