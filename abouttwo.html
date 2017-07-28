@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <link rel="stylesheet" type="text/css" href="style10.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Cherry Cream Soda' rel='stylesheet'>
+    <script src="jquery-3.2.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <script>
+    function animationClick(element, animation){
+      element = $(element);
+        element.click(
+    function() {
+      element.addClass('animated ' + animation);
+        window.setTimeout( function(){
+          element.removeClass('animated ' + animation);
+            }, 2000);
+              });
+                }
+    function animationHover(element, animation){
+      element = $(element);
+        element.hover(
+    function() {
+      element.addClass('animated ' + animation);
+        },
+    function(){
+      window.setTimeout( function(){
+        element.removeClass('animated ' + animation);
+    }, 2000);
+    });
+    }
+
+
+
+    $(document).ready(function(){
+
+
+    $('#littlepic').each(function() {
+    animationHover(this, 'shake');
+    });
+
+
+    });
+
+
+    </script>
+
+  </head>
+  <body>
+    <ul class="menu">
+      <li class="nav-item"><a href="Personhome.html">Home</a></li>
+      <li class="nav-item"><a href="abouttwo.html">About</a></li>
+      <li class="nav-item"><a href="Family.html">Family Members</a></li>
+      <li class="nav-item"><a href="contact.html">Contact</a></li>
+      <li class="nav-item"><a href="drawing.html">Drawing Area</a></li>
+      <li class="nav-item"><a href="photoalbum.html">Photo Album</a></li>
+    </ul>
+    <h1 id="title">About the creator</h1>
+    <h3 id="biography">The short biography</h3>
+    <div class="MEl">
+      <p class="MEl">I am Shubhan Chari. I am 11 years old and I live in Santa Clara with my mom, dad, and brother. I will be a sixth grader at Hyde Middle School. People call me a very helpful and nice kid. Not to brag, people give compliments and motivation to me, which is cool and motivating.</p>
+      <img src="20170728_084750.jpg" id="littlepic">
+      <p class="MEl">When I was a little baby, I don't remember too much of back then. However, from pictures, videos, and stories, I know that I was a cute boy back then.<audio src="http://tipiwiki.free.fr/snd/B%e9b%e9.wav" id="babysound">baby sound</audio>The picture on the right shows 1-year old me sucking on a bell during a religious event. That is one of the cutest pictures I, and probably you, have ever seen. I have also been to India when I was two and Hawaii when I was 1 and a half. My mom says I learned to read when I was around 3, which is earlier than most kids. Also, when I was 3, I went to a preschool. These memories have a few flashes, but I think these events have shaped my life today in a way.</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="ME2">
+      <img src="20170727_120721.jpg" id="bigpic">
+      <p class="ME2">This is me now. The interests have built through the years. One of those interest is basketball EVERYTHING. I play the game of basketball, follow basketball on the news, and try to find new players, and stats. There is something like this for football as well, except I don't follow every single player, and I don't follow the stats. I do play football as well, except it is more of a hobby. I am also a HUGE gamer. When I mean huge, I mean HUGE. My favorite game is NBA2K17, but I have developed a big liking for Nintendo's Super Mario and Pokemon franchises, as well as Super Smash Bros and Splatoon. I have also developed a liking for Supercell games Clash of Clans, Boom Beach, and especially Clash Royale. I also have a great liking for math. My most favorite is algebra. I also play the flute and do TaeKwonDo. And Last, but not least, I am a huge programmer. I am learning Python and this website uses HTML and CSS, showing what I have learned from the two languages. There are also a lot more things I do, like, for example, I like to go to Great America, or biking. When the family travels, we would always have fun. For another thing, for some reason, I have developed a liking for the font called Cherry Cream Soda.</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a href="abouttwo.html" id="top">Go to top</a>
+  </body>
+</html>

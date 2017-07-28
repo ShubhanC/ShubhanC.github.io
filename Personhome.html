@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <title>Personal Biography</title>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <link rel="stylesheet" type="text/css" href="style6.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <script src="jquery-3.2.1.js"></script>
+    <script>
+    function animationClick(element, animation){
+      element = $(element);
+        element.click(
+    function() {
+      element.addClass('animated ' + animation);
+        window.setTimeout( function(){
+          element.removeClass('animated ' + animation);
+            }, 2000);
+              });
+                }
+    function animationHover(element, animation){
+      element = $(element);
+        element.hover(
+    function() {
+      element.addClass('animated ' + animation);
+        },
+    function(){
+      window.setTimeout( function(){
+        element.removeClass('animated ' + animation);
+    }, 2000);
+    });
+    }
+
+
+
+    $(document).ready(function(){
+
+
+    $('#logo').each(function() {
+    animationClick(this, 'bounceOutLeft');
+    });
+
+
+    });
+
+
+    </script>
+  </head>
+  <body>
+    <ul class="menu">
+      <li class="nav-item"><a href="Personhome.html">Home</a></li>
+      <li class="nav-item"><a href="abouttwo.html">About</a></li>
+      <li class="nav-item"><a href="family.html">Family Members</a></li>
+      <li class="nav-item"><a href="interests.html">Interests</a></li>
+      <li class="nav-item"><a href="contact.html">Contact</a></li>
+      <li class="nav-item"><a href="drawing.html">Drawing Area</a></li>
+      <li class="nav-item"><a href="photoalbum.html">Photo Album</a></li>
+    </ul>
+    <div class="eleven-years">
+      <br>
+      <br>
+      <br>
+      <h2 class="eleven-years">Welcome to this website!</h1>
+      <br>
+      <br>
+      <img src="20170727_120721.jpg" id="logo"></img>
+      <h3 id="loga" class="eleven-years">Shubhan Chari</h3>
+      <h6 class="eleven-years">Written by me.</h6>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+    <h6 class="statemant">Go wherever you want on the site.</h6>

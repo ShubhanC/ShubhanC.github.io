@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>My Family Members</title>
+    <link href='https://fonts.googleapis.com/css?family=Cherry Cream Soda' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <link rel="stylesheet" type="text/css" href="style7.css">
+    <script src="jquery-3.2.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <script>
+    function animationClick(element, animation){
+      element = $(element);
+        element.click(
+    function() {
+      element.addClass('animated ' + animation);
+        window.setTimeout( function(){
+          element.removeClass('animated ' + animation);
+            }, 2000);
+              });
+                }
+    function animationHover(element, animation){
+      element = $(element);
+        element.hover(
+    function() {
+      element.addClass('animated ' + animation);
+        },
+    function(){
+      window.setTimeout( function(){
+        element.removeClass('animated ' + animation);
+    }, 2000);
+    });
+    }
+
+
+
+    $(document).ready(function(){
+
+
+    $('#Fampici').each(function() {
+    animationHover(this, 'rollOut', 'rollIn');
+    });
+
+
+    });
+
+
+    </script>
+  </head>
+  <body>
+    `<ul class="menu">
+      <li class="nav-item"><a href="Personhome.html">Home</a></li>
+      <li class="nav-item"><a href="abouttwo.html">About</a></li>
+      <li class="nav-item"><a href="family.html">Family Members</a></li>
+      <li class="nav-item"><a href="contact.html">Contact</a></li>
+      <li class="nav-item"><a href="drawing.html">Drawing Area</a></li>
+      <li class="nav-item"><a href="photoalbum.html">Photo Album</a></li>
+    </ul>
+    <h1 class="Title">My Family</h1>
+    <br>
+    <br>
+    <img src="20170727_202109.jpg" id="Fampici"></img>
+    <h6 id="TIMY">This is my family</h6>
+    <br>
+    <img src="IMG_7197.jpg" id="Parenpic">
+    <div class="Parents">
+      <br>
+      <p class="Parents">These are my parents. They helped bring my confidence up,</p>
+      <p class="Parents">which subsequently helped me start programming and have fun.</p>
+      <p class="Parents">My mom's name is Savita Chari and my dad's name is Shridhar Chari.</p>
+      <p class="Parents">Both of them are caring, nice people not just to my brother(below) and I,</p>
+      <p class="Parents">but to everyone that doesn't have a kind attitude.</p>
+      <p class="Parents">Almost every day, my teach me something or another.</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <img src="20170726_122908.jpg" id="Bropic">
+    <div class="Brother">
+      <p class="Brother">This is my brother. His name is Shriansh Chari.</p>
+      <p class="Brother">He is a fun, and funny person, though he can be a little weird.</p>
+      <p class="Brother">But, anyways, he has come to this Web Dev Class with me.</p>
+      <p class="Brother">He does know more about computer science and programming than I do.</p>
+      <p class="Brother">So he would help when I need help. There is also a funny thing </p>
+      <p class="Brother">about us two. It turns out many interests I have have come from him!</p>
+      <p class="Brother">Though we don't look like brothers, we have the relaitionship like one.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>Contacting Me</title>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <link rel="stylesheet" type="text/css" href="style8.css">
+    <script src="jquery-3.2.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <script>
+    function animationClick(element, animation){
+      element = $(element);
+        element.click(
+    function() {
+      element.addClass('animated ' + animation);
+        window.setTimeout( function(){
+          element.removeClass('animated ' + animation);
+            }, 2000);
+              });
+                }
+    function animationHover(element, animation){
+      element = $(element);
+        element.hover(
+    function() {
+      element.addClass('animated ' + animation);
+        },
+    function(){
+      window.setTimeout( function(){
+        element.removeClass('animated ' + animation);
+    }, 2000);
+    });
+    }
+
+
+
+    $(document).ready(function(){
+
+
+    $('#logo').each(function() {
+    animationHover(this, 'rollIn', 'rollOut');
+    });
+
+
+    });
+
+    </script>
+  </head>
+  <body>
+    <ul class="menu">
+      <li class="nav-item"><a href="Personhome.html">Home</a></li>
+      <li class="nav-item"><a href="abouttwo.html">About</a></li>
+      <li class="nav-item"><a href="family.html">Family Members</a></li>
+      <li class="nav-item"><a href="contact.html">Contact</a></li>
+      <li class="nav-item"><a href="drawing.html">Drawing Area</a></li>
+      <li class="nav-item"><a href="photoalbum.html">Photo Album</a></li>
+    </ul>
+    <h1 class="Contact">How to contact me</h1>
+    <br>
+    <h5 class="Contact">To contact me, you can email me from Google Mail. My email is shubhan.chari@gmail.com. Also, my G-mail username is not Shubhan Chari, it is NBA Treats.</h5>
+    <br>
+    <br>
+      <img src="https://lh6.ggpht.com/8-N_qLXgV-eNDQINqTR-Pzu5Y8DuH0Xjz53zoWq_IcBNpcxDL_gK4uS_MvXH00yN6nd4=w300" id="logo"></img>
+      <button id="buttontogmail"><a href="mailto:shubhan.chari@gmail.com">Send a message to me</a></button>
+
+  </body>
+</html>
